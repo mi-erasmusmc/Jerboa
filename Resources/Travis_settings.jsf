@@ -1,0 +1,38 @@
+MetaData
+	requiredVersion = 2.7
+	scriptVersion = 1.0
+	description = Travis Test Script
+	creationDate = 20/10/2016
+	scriptTag = Travis
+/Metadata
+
+###########################
+#   Data Profiler         #	
+###########################
+
+# 
+# This module aggregates the patient population data and calculates descriptive statistics.
+# The primary data extraction statistics are exported to a text file and are also shown
+# in graphical format in the GUI.
+# 
+Module Data Profile (DataProfiler)
+	
+	# 
+	# The size of the groups in years for the calculation of the statistics
+	# 
+	groupSize = 1
+	
+	createGraphs = false
+	outputInFLOC = false
+/Module
+
+
+
+# 
+# This module counts the event types and codes. It outputs a total count and a 
+# first count.The total count includes all events of a patient, while the firstCount only counts
+# the events that occur for the first time in patient history.
+# and are in the cohort time.
+# 
+#Module CodeCounting (CodeCounting)
+#/Module

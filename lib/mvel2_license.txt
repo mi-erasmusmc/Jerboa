@@ -1,0 +1,2 @@
+MVEL2 uses the apache 2.0 license.
+Please see file commons-apache_license.txt

@@ -1,0 +1,18 @@
+language: java
+# safelist
+branches:
+  only:
+  - dev
+  - master
+jdk:
+  - oraclejdk8
+install: true
+
+script:
+ - chmod +x ./scripts/maven_build.sh
+ - ./scripts/maven_build.sh
+ - chmod +x ./scripts/run_and_compare.sh
+ - ./scripts/run_and_compare.sh
+
+after_success:
+ - bash <(curl -s https://codecov.io/bash) -t c423042c-8277-44c2-b05e-ee750ef8a093

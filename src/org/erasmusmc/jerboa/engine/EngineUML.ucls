@@ -1,0 +1,315 @@
+<class-diagram version="1.0.11" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.Processing" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/Processing.java" binary="false">    
+    <position height="-1" width="-1" x="1041" y="688"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.InputFile" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/InputFile.java" binary="false">    
+    <position height="-1" width="-1" x="193" y="1530"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.InputFileSet" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/InputFileSet.java" binary="false">    
+    <position height="-1" width="-1" x="203" y="684"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" 
+    name="org.erasmusmc.jerboa.utilities.inputChecking.InputFileChecker" project="JerboaReloaded" 
+    file="/JerboaReloaded/src/org/erasmusmc/jerboa/utilities/inputChecking/InputFileChecker.java" binary="false">    
+    <position height="217" width="227" x="396" y="1223"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.WorkFlow" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/WorkFlow.java" binary="false">    
+    <position height="-1" width="-1" x="1531" y="247"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" 
+    name="org.erasmusmc.jerboa.utilities.inputChecking.PatientsFileChecker" project="JerboaReloaded" 
+    file="/JerboaReloaded/src/org/erasmusmc/jerboa/utilities/inputChecking/PatientsFileChecker.java" binary="false">    
+    <position height="-1" width="-1" x="774" y="989"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" 
+    name="org.erasmusmc.jerboa.utilities.inputChecking.EventsFileChecker" project="JerboaReloaded" 
+    file="/JerboaReloaded/src/org/erasmusmc/jerboa/utilities/inputChecking/EventsFileChecker.java" binary="false">    
+    <position height="-1" width="-1" x="773" y="1246"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" 
+    name="org.erasmusmc.jerboa.utilities.inputChecking.PrescriptionsFileChecker" project="JerboaReloaded" 
+    file="/JerboaReloaded/src/org/erasmusmc/jerboa/utilities/inputChecking/PrescriptionsFileChecker.java" binary="false">    
+    <position height="-1" width="-1" x="768" y="1492"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="9" corner="BOTTOM_RIGHT" language="java" 
+    name="org.erasmusmc.jerboa.utilities.inputChecking.MeasurementsFileChecker" project="JerboaReloaded" 
+    file="/JerboaReloaded/src/org/erasmusmc/jerboa/utilities/inputChecking/MeasurementsFileChecker.java" binary="false">    
+    <position height="-1" width="-1" x="769" y="1739"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="10" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.Jerboa" project="JerboaReloaded" 
+    file="/JerboaReloaded/src/org/erasmusmc/jerboa/Jerboa.java" binary="false">    
+    <position height="-1" width="-1" x="1041" y="168"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="11" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.ScriptParser" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/ScriptParser.java" binary="false">    
+    <position height="-1" width="-1" x="622" y="238"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="12" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.InputFileSplitter" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/InputFileSplitter.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="629" y="644"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="13" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.Module" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/Module.java" binary="false">    
+    <position height="-1" width="-1" x="1415" y="675"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="14" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.Worker" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/Worker.java" binary="false">    
+    <position height="-1" width="-1" x="1850" y="930"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="15" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.Filter" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/Filter.java" binary="false">    
+    <position height="-1" width="-1" x="1503" y="961"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <class id="16" corner="BOTTOM_RIGHT" language="java" name="org.erasmusmc.jerboa.engine.PatientObjectCreator" 
+    project="JerboaReloaded" file="/JerboaReloaded/src/org/erasmusmc/jerboa/engine/PatientObjectCreator.java" 
+    binary="false">    
+    <position height="-1" width="-1" x="1108" y="1368"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="false" protected="false" private="false"/>      
+      <operations public="true" package="false" protected="false" private="false"/>    
+    </display>  
+  </class>  
+  <association id="17">    
+    <bendpoint x="378" y="914"/>    
+    <bendpoint x="367" y="1123"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="18" name="inputFile"/>      
+      <multiplicity id="19" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="20">    
+    <bendpoint x="641" y="1605"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="21">    
+    <bendpoint x="872" y="428"/>    
+    <bendpoint x="399" y="429"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="22" name="inputSet"/>      
+      <multiplicity id="23" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="24">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="25">    
+    <bendpoint x="136" y="1165"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="26" name="measurementFiles">        
+        <position height="15" width="94" x="141" y="1135"/>      
+      </attribute>      
+      <multiplicity id="27" minimum="0" maximum="2147483647">        
+        <position height="15" width="19" x="142" y="1156"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <bendpoint x="310" y="1165"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="29" name="patientFiles">        
+        <position height="15" width="61" x="304" y="1089"/>      
+      </attribute>      
+      <multiplicity id="30" minimum="0" maximum="2147483647">        
+        <position height="15" width="19" x="312" y="1105"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="31">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="32">    
+    <end type="SOURCE" refId="5" navigable="false">      
+      <attribute id="33" name="modules"/>      
+      <multiplicity id="34" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="35">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="36" name="processing"/>      
+      <multiplicity id="37" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="38">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="39">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="40" name="filters"/>      
+      <multiplicity id="41" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="42">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="43" name="workFlow">        
+        <position height="15" width="56" x="1315" y="192"/>      
+      </attribute>      
+      <multiplicity id="44" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="5" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="45">    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="46" name="inputSet"/>      
+      <multiplicity id="47" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="48">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="14"/>  
+  </generalization>  
+  <association id="49">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="50" name="scriptParser">        
+        <position height="15" width="66" x="741" y="173"/>      
+      </attribute>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="52">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <association id="53">    
+    <bendpoint x="270" y="1124"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="54" name="prescriptionFiles">        
+        <position height="15" width="86" x="174" y="1090"/>      
+      </attribute>      
+      <multiplicity id="55" minimum="0" maximum="2147483647">        
+        <position height="15" width="19" x="238" y="1105"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="56">    
+    <bendpoint x="902" y="986"/>    
+    <bendpoint x="904" y="870"/>    
+    <bendpoint x="327" y="872"/>    
+    <end type="SOURCE" refId="16" navigable="false">      
+      <attribute id="57" name="inputSet"/>      
+      <multiplicity id="58" minimum="0" maximum="1">        
+        <position height="15" width="21" x="334" y="880"/>      
+      </multiplicity>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="59">    
+    <bendpoint x="74" y="1160"/>    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="60" name="eventFiles">        
+        <position height="15" width="56" x="84" y="1176"/>      
+      </attribute>      
+      <multiplicity id="61" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="62">    
+    <bendpoint x="337" y="1366"/>    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="63" name="file">        
+        <position height="15" width="23" x="314" y="1350"/>      
+      </attribute>      
+      <multiplicity id="64" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="false" protected="false" private="false"/>    
+    <operations public="true" package="false" protected="false" private="false"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+
+<jardesc>
+   <jar path="./JerboaReloaded.jar"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="false" manifestLocation="/JerboaReloaded/jardesc/JerboaReloaded.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="true">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/JerboaReloaded/jardesc/JerboaReloaded.jardesc"/>
+        <javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.cli"/>
+        <javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.config"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.dataClasses"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.encryption"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.engine"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.filters"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.gui"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.gui.graphs"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.gui.resources"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.manual"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.modules"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.modules.viewers"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.scripts"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.utilities"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.utilities.inputChecking"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.utilities.stats"/>
+		<javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.utilities.stats.formulas"/>
+		</selectedElements>
+    <fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
+</jardesc>

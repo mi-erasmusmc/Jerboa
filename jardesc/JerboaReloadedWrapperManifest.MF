@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Class-Path: .
+Sealed: true
+Main-Class: org.erasmusmc.jerboa.wrapper.Wrapper
+Name: Wrapper
+Specification-Title: Jerboa Reloaded Wrapper
+Specification-Vendor: Erasmus MC, Dept. of Medical Informatics
+
+

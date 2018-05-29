@@ -1,0 +1,21 @@
+codecov:
+  token: c423042c-8277-44c2-b05e-ee750ef8a093
+  branch: master  # override the default branch
+ 
+coverage:
+  precision: 2  # 2 = xx.xx%, 0 = xx%
+  round: down # default down
+  range: 50...60 # default 70...90. red...green
+
+  ignore: # files and folders for processing
+    - test/*
+    - src/org/erasmusmc/jerboa/config
+    - src/org/erasmusmc/jerboa/gui
+    - src/org/erasmusmc/jerboa/graphs
+    - src/org/erasmusmc/jerboa/resources
+    - src/org/erasmusmc/jerboa/encryption
+    - src/org/erasmusmc/jerboa/modules/viewers
+    - src/org/erasmusmc/jerboa/utilities/dataSimulator
+  
+  fixes:
+    - "old_path::new_path"
