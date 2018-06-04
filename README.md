@@ -11,7 +11,7 @@ Jerboa is in beta status.
 Branch | Travis-CI 
 --- | --- 
 Master | [![Build Status](https://travis-ci.com/mi-erasmusmc/Jerboa.svg?token=bd1rJQsWW3qDGMjm1RsF&branch=master)](https://travis-ci.com/mi-erasmusmc/Jerboa) 
-Dev | [![Build Status](https://travis-ci.com/mi-erasmusmc/Jerboa.svg?token=bd1rJQsWW3qDGMjm1RsF&branch=dev)](https://travis-ci.com/mi-erasmusmc/Jerboa) 
+Dev | [![Build Status](https://travis-ci.com/mi-erasmusmc/Jerboa.svg?token=bd1rJQsWW3qDGMjm1RsF&branch=develop)](https://travis-ci.com/mi-erasmusmc/Jerboa) 
 
 # Issue management
 Issues can be posted in the issue section and will be addressed by the community.
