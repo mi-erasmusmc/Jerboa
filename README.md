@@ -6,6 +6,8 @@ Detailed information about Jerboa  can be found on the [wiki page](https://githu
 
 # Development status
 
+Jerboa is in beta status.
+
 Branch | Travis-CI 
 --- | --- 
 Master | [![Build Status](https://travis-ci.com/mi-erasmusmc/Jerboa.svg?token=bd1rJQsWW3qDGMjm1RsF&branch=master)](https://travis-ci.com/mi-erasmusmc/Jerboa) 
