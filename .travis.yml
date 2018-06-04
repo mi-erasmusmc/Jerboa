@@ -2,7 +2,7 @@ language: java
 # safelist
 branches:
   only:
-  - dev
+  - develop
   - master
 jdk:
   - oraclejdk8
