@@ -4,15 +4,15 @@
     <jar path="./JerboaWrapper.jar"/>
     <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
     <selectedProjects/>
-    <manifest generateManifest="false" manifestLocation="/JerboaReloaded/jardesc/JerboaReloadedWrapperManifest.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+    <manifest generateManifest="false" manifestLocation="/Jerboa/jardesc/JerboaWrapperManifest.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
         <sealing sealJar="false">
             <packagesToSeal/>
             <packagesToUnSeal/>
         </sealing>
     </manifest>
     <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
-        <file path="/JerboaReloaded/jardesc/JerboaReloadedWrapper.jardesc"/>
-        <javaElement handleIdentifier="=JerboaReloaded/src&lt;org.erasmusmc.jerboa.wrapper"/>
+        <file path="/Jerboa/jardesc/JerboaWrapper.jardesc"/>
+        <javaElement handleIdentifier="=Jerboa/src&lt;org.erasmusmc.jerboa.wrapper"/>
     </selectedElements>
     <fatjar builder="org.eclipse.jdt.ui.plain_jar_builder" launchConfig=""/>
 </jardesc>

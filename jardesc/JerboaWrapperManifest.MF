@@ -3,7 +3,7 @@ Class-Path: .
 Sealed: true
 Main-Class: org.erasmusmc.jerboa.wrapper.Wrapper
 Name: Wrapper
-Specification-Title: Jerboa Reloaded Wrapper
+Specification-Title: Jerboa Wrapper
 Specification-Vendor: Erasmus MC, Dept. of Medical Informatics
 
 
