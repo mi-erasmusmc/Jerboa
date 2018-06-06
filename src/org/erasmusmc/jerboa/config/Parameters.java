@@ -47,7 +47,7 @@ public class Parameters {
 	/*****************
 	  VERSION NUMBER
 	 ****************/
-	public static final String VERSION_NUMBER = "1.0.0.0";
+	public static final String VERSION_NUMBER = "1.0.0.1";
 	
 	/****************
 	  DATABASE NAMES
