@@ -443,7 +443,7 @@ public class DrugUtilizationPrescriptionLevel extends Module {
 		eventTimeToList = new ItemList(true,0);
 		eventTimeToList.parse(eventTimeTo);
 		measurementsList = new ItemList(true,0);
-		measurementsList.parseWithValue(measurementOfInterest);
+		measurementsList.parse(measurementOfInterest);
 		measurementCountsList = new ItemList(true,0);
 		measurementCountsList.parse(measurementCount);
 		measurementTimeSinceList = new ItemList(true,0);
@@ -489,9 +489,16 @@ public class DrugUtilizationPrescriptionLevel extends Module {
 		header.append("ATC");
 		header.append("SeqNr");
 		header.append("Age");
-		header.append("AgeGroup");
-		if (ageAtDateValue != -1) {
-			header.append("AgeAt_" + ageAtDateIndexDate);
+		if (ageGroups.size() > 0) {
+			header.append("AgeGroup");
+		}
+		if (!ageAtDate.equals("")) {
+			if (ageAtDateValue != -1) {
+				header.append("AgeAt_" + ageAtDateValue + "_" + ageAtDateUnit);
+			}
+			else {
+				header.append("AgeAt_" + ageAtDateIndexDate + "_" + ageAtDateUnit);
+			}
 		}
 		header.append("Year");
 		header.append("Month");
@@ -606,33 +613,37 @@ public class DrugUtilizationPrescriptionLevel extends Module {
 					// Age
 					results.append(String.valueOf(age));
 					// AgeGroup
-					String ageGroups =  "";
-					for (AgeGroup ageGroup : ageGroupDefinition.getAgeGroups(age)) {
-						if (!ageGroups.equals("")) {
-							ageGroups += ";";
+					if (ageGroups.size() > 0) {
+						String ageGroups =  "";
+						for (AgeGroup ageGroup : ageGroupDefinition.getAgeGroups(age)) {
+							if (!ageGroups.equals("")) {
+								ageGroups += ";";
+							}
+							ageGroups += ageGroup.getLabel();
 						}
-						ageGroups += ageGroup.getLabel();
+						results.append(ageGroups);
 					}
-					results.append(ageGroups);
 					// AgeAtDate
-					int indexDate = ageAtDate.equals("POPULATIONSTART") ? patient.getPopulationStartDate() : 
-									(ageAtDate.equals("POPULATIONEND") ? patient.getPopulationEndDate() : 
-									(ageAtDate.equals("COHORTSTART") ? patient.getCohortStartDate() : 
-									(ageAtDate.equals("COHORTEND") ? patient.getCohortEndDate() : 
-									(ageAtDate.equals("PRESCRIPTIONSTART") ? prescription.getDate() : 
-									(ageAtDate.equals("PRESCRIPTIONEND") ? prescription.getEndDate() : 
-									ageAtDateValue)))));
-					if (ageAtDateUnit.equals("YEARSFRACTION")) {
-						results.append(precisionFormat.format((indexDate - patient.getBirthDate())/365.25));
-					}
-					else if (ageAtDateUnit.equals("MONTH")) {
-						results.append(precisionFormat.format((indexDate - patient.getBirthDate())/(365.25 / 12)));
-					}
-					else if (ageAtDateUnit.equals("DAYS")) {
-						results.append(Integer.toString(indexDate - patient.getBirthDate()));
-					}
-					else { // ageAtDateUnit.equals("YEARS")
-						results.append(Integer.toString(patient.getAgeAtDateInYears(indexDate)));
+					if (!ageAtDate.equals("")) {
+						int indexDate = ageAtDateIndexDate.equals("POPULATIONSTART") ? patient.getPopulationStartDate() : 
+							(ageAtDateIndexDate.equals("POPULATIONEND") ? patient.getPopulationEndDate() : 
+							(ageAtDateIndexDate.equals("COHORTSTART") ? patient.getCohortStartDate() : 
+							(ageAtDateIndexDate.equals("COHORTEND") ? patient.getCohortEndDate() : 
+							(ageAtDateIndexDate.equals("PRESCRIPTIONSTART") ? prescription.getDate() : 
+							(ageAtDateIndexDate.equals("PRESCRIPTIONEND") ? prescription.getEndDate() : 
+							ageAtDateValue)))));
+						if (ageAtDateUnit.equals("YEARSFRACTION")) {
+							results.append(precisionFormat.format((indexDate - patient.getBirthDate())/365.25));
+						}
+						else if (ageAtDateUnit.equals("MONTHS")) {
+							results.append(precisionFormat.format((indexDate - patient.getBirthDate())/(365.25 / 12)));
+						}
+						else if (ageAtDateUnit.equals("DAYS")) {
+							results.append(Integer.toString(indexDate - patient.getBirthDate()));
+						}
+						else { // ageAtDateUnit.equals("YEARS")
+							results.append(Integer.toString(patient.getAgeAtDateInYears(indexDate)));
+						}
 					}
 					// Year
 					results.append(String.valueOf(DateUtilities.getYearFromDays(prescription.getDate())));
