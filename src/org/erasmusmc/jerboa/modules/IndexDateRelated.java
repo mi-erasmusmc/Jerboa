@@ -1077,7 +1077,7 @@ public class IndexDateRelated extends Module{
 		Set<String> foundEvents = new HashSet<String>(); //only count the events once
 		Map<String, String> map = new HashMap<String, String>();
 		for (Item comorbidity : comorbiditiesList) {
-			map.put(comorbidity.getLabel(), (outputYesNo ? "NO" : "0"));		
+			map.put(comorbidity.getDescription(), (outputYesNo ? "NO" : "0"));		
 		}
 		for (Item comorbidity : comorbiditiesList) {
 			Jerboa.getResultSet().add(patient.getPatientID(), comorbidity.getDescription(), "0");
@@ -1125,15 +1125,15 @@ public class IndexDateRelated extends Module{
 				if (windowStart==-1) {
 					for (String lookup:comorbidity.getLookup()){
 						if (StringUtils.upperCase(event.getType()).equals(StringUtils.upperCase(lookup)) && (event.date<windowEnd)) {
-							foundEvents.add(comorbidity.getLabel());
-							map.put(comorbidity.getLabel(), (outputYesNo ? "YES" : "1"));
+							foundEvents.add(comorbidity.getDescription());
+							map.put(comorbidity.getDescription(), (outputYesNo ? "YES" : "1"));
 						}
 					}
 				} else {
 					for (String lookup:comorbidity.getLookup()){
 						if (StringUtils.upperCase(event.getType()).equals(StringUtils.upperCase(lookup)) && event.isInPeriod(windowStart,windowEnd,false,false)) {
-							foundEvents.add(comorbidity.getLabel());
-							map.put(comorbidity.getLabel(), (outputYesNo ? "YES" : "1"));
+							foundEvents.add(comorbidity.getDescription());
+							map.put(comorbidity.getDescription(), (outputYesNo ? "YES" : "1"));
 						}
 					}					
 
@@ -1154,7 +1154,7 @@ public class IndexDateRelated extends Module{
 		// return the results as a string
 		DelimitedStringBuilder result = new DelimitedStringBuilder();
 		for (Item key : comorbiditiesList){
-			result.append(map.get(key.getLabel()));
+			result.append(map.get(key.getDescription()));
 		}
 		return result;
 	}
